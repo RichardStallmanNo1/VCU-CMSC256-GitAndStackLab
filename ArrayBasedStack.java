@@ -7,7 +7,7 @@ public final class ArrayBasedStack<T> implements StackInterface<T> {
     private T[] data;
     private int topOfStack;
     private boolean initialized = false;
-    private static final int INITIAL_CAPACITY = 50;
+    private static final int INITIAL_CAPACITY = 5;
 
     public ArrayBasedStack() {
         this(INITIAL_CAPACITY);
